@@ -21,4 +21,4 @@ class Pokemon():
         self.pokemon_type = pokemon_type
 
     def __repr__(self):
-        return f"Pokemon(name: {self.name}, more_details_url: {self.more_details_url}, weight: {self.weight}, abilities: {self.abilities}, pokemon_type: {self.abilities})"
+        return f"Pokemon(name: {self.name}, more_details_url: {self.more_details_url}, weight: {self.weight}, abilities: {self.abilities}, pokemon_type: {self.pokemon_type})"
