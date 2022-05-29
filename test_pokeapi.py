@@ -12,7 +12,7 @@ class TestPokeAPI(unittest.TestCase):
         expected = Pokemon(name='bulbasaur', more_details_url='https://pokeapi.co/api/v2/pokemon/1/',
                            weight=69, abilities=['overgrow', 'chlorophyll'], pokemon_type=['grass', 'poison'])
 
-        self.assertEqual(expected.__repr__(), data.__repr__())
+        self.assertEqual(expected.__dict__, data.__dict__)
 
     def test_pokemon_list_return(self):
         api = PokeAPI()
