@@ -13,7 +13,7 @@ class PokeAPI():
 
     def __init__(self, base_url: str = "https://pokeapi.co/api/v2/pokemon/"):
         self.base_url = base_url
-        self.pokemon_data = []
+        self._pokemon_data = []
 
     def __pokemon_object_mapping(self, pokemon) -> Pokemon:
         '''
@@ -62,7 +62,7 @@ class PokeAPI():
             object_response = list(
                 map(self.__pokemon_object_mapping, loads(response.text)["results"]))
 
-            self.pokemon_data = object_response
+            self._pokemon_data = object_response
         except Exception as e:
             raise e
 
@@ -74,4 +74,4 @@ class PokeAPI():
             Returns:
                 data (list): Lista de objetos Pokémons.
         '''
-        return [*self.pokemon_data]
+        return [*self._pokemon_data]
