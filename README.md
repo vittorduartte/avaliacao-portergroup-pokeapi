@@ -52,11 +52,11 @@ print(data)
 
 ## Executando o projeto
 
-1. Verifique suas dependências
+1. Verifique suas dependências:
 
-Para execução do projeto é requerido as dependências: **> Python3.6** e a biblioteca [**requests**](https://requests.readthedocs.io/en/latest/).
+Para execução do projeto é requerido: **> Python3.6** e a biblioteca [**requests**](https://requests.readthedocs.io/en/latest/).
 
-1. Clone o repositório do projeto:
+2. Clone o repositório do projeto:
 
 ```
 git clone https://github.com/vittorduartte/avaliacao-portergroup-pokedex
@@ -75,9 +75,9 @@ pip install requests
 python main.py
 ```
 
-## Testes
+## Bônus: Testes
 
-Para garantir a integridade dos dados que estão sendo processados e dos objetos gerados, alguns testes (**test_pokeapi.py**) foram implementados para garantir que o código estevesse comportando-se como esperado.
+Para garantir a integridade dos dados que estão sendo processados e dos objetos gerados, alguns testes (confira em **test_pokeapi.py**) foram implementados para garantir que o código estevesse comportando-se como esperado.
 
 Execute os testes com:
 
