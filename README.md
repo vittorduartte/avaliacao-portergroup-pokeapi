@@ -59,8 +59,8 @@ Para execução do projeto é requerido: **> Python3.6** e a biblioteca [**reque
 2. Clone o repositório do projeto:
 
 ```
-git clone https://github.com/vittorduartte/avaliacao-portergroup-pokedex
-cd avaliacao-portergroup-pokedex
+git clone https://github.com/vittorduartte/avaliacao-portergroup-pokeapi
+cd avaliacao-portergroup-pokeapi
 ```
 
 3. Instale as bibliotecas necessárias:
